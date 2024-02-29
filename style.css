@@ -1,0 +1,52 @@
+body {
+  background-color: #141414;
+}
+
+li a {
+  text-decoration: none;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: #333333;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.social-profile-app {
+  background: #1f1f1f;
+  width: 400px;
+  height: 650px;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  color: #c7eb40;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+  text-align: center;
+}
+
+.avatar-img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
