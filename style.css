@@ -55,10 +55,25 @@ p {
   margin: 0 auto;
 }
 
-.attribution {
+.app-wrapper {
+  margin-top: 20px;
+}
+
+.footer {
+  color: blue;
+  margin-top: 20px;
+  line-height: 1.5;
+  font-size: 13px;
+  text-align: center;
+  position: relative;
+  left: 60px;
+}
+
+.footer a {
+  text-decoration: none;
   color: blue;
 }
 
-.app-wrapper {
-  margin-top: 20px;
+.app-wrapper footer {
+  text-align: center;
 }
