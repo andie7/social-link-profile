@@ -2,6 +2,18 @@ body {
   background-color: #141414;
 }
 
+.app-wrapper {
+  margin: 0 auto;
+  max-width: 400px;
+  margin-top: 50px;
+}
+
+.social-profile-app {
+  background: #1f1f1f;
+  border: none;
+  border-radius: 20px;
+}
+
 li a {
   text-decoration: none;
   border: none;
@@ -22,16 +34,6 @@ li {
   list-style: none;
   padding: 10px 20px;
   margin-bottom: 10px;
-}
-
-.social-profile-app {
-  background: #1f1f1f;
-  width: 400px;
-  height: 600px;
-  border: none;
-  border-radius: 20px;
-  position: relative;
-  left: 600px;
 }
 
 h1 {
@@ -55,10 +57,6 @@ p {
   margin: 0 auto;
 }
 
-.app-wrapper {
-  margin-top: 20px;
-}
-
 .footer {
   color: blue;
   margin-top: 20px;
@@ -66,7 +64,7 @@ p {
   font-size: 13px;
   text-align: center;
   position: relative;
-  left: 50px;
+  left: 10px;
 }
 
 .footer a {
@@ -76,4 +74,32 @@ p {
 
 .app-wrapper footer {
   text-align: center;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 23px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .social-profile-app {
+    width: 280px;
+    margin-left: 5px;
+  }
+
+  .footer {
+    margin: 10px 50px;
+    width: 200px;
+  }
+
+  .avatar-img {
+    width: 120px;
+  }
 }
